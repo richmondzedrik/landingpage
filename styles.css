@@ -1,0 +1,70 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #1f2937;
+    padding: 1em 13em;
+    margin: 0;
+    border: 0;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+}
+
+.card {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    gap: 50px;
+}
+
+.main .right {
+    display: flex;
+    background-color: grey;
+    width: 50%;
+    justify-content: center;
+}
+
+.image {
+    display: flex;
+    height: 215px;
+    align-items: center;
+}
+
+.main .left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+}
+
+button {
+    width: 120px;
+    height: 35px;
+    background-color: #3882F6;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 50px;
+}
